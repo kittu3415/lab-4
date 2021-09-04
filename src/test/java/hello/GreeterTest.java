@@ -5,12 +5,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-// public class GreeterTest {
+public class GreeterTest {
 
-  // private Greeter greeter = new Greeter();
+  private Greeter greeter = new Greeter();
 
   @Test
-  // public void greeterSaysHello() {
+  public void greeterSaysHello() {
     assertThat(greeter.sayHello(), containsString("Bye"));
   }
 
